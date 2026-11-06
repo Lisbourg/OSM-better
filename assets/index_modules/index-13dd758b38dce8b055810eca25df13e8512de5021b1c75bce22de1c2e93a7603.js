@@ -1,0 +1,1 @@
+export default function(e){return{load(){e.setSidebarOverlaid(!0),document.title=OSM.i18n.t("layouts.project_name.title")},init(){const t=new URLSearchParams(location.search);return t.has("query")&&$("#sidebar .search_form input[name=query]").val(t.get("query")),e.getState()}}}

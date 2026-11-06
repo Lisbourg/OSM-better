@@ -1,0 +1,86 @@
+[
+  {
+    "path": "assets/@mapbox/mapbox-gl-rtl-text/dist/mapbox-gl-rtl-text-f010fb2232c5df9c248168b47d8ff5d6b3bfd57a51107f9f6cf81ad3ee816c40.js",
+    "reference_sha256": "16ea49015693d44896c120c7d69a140cfc65a0d16ec7483ec58662ddbaca27b8",
+    "packaged_sha256": "16ea49015693d44896c120c7d69a140cfc65a0d16ec7483ec58662ddbaca27b8",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/changeset-9cd51cdc2debafa4a44431d3525b35768b46f6c754ee67ad18094abd1759be53.js",
+    "reference_sha256": "9dde877a13391a31c068a44d09a5acbc57a046fa28b3606cbade1baae080625b",
+    "packaged_sha256": "9dde877a13391a31c068a44d09a5acbc57a046fa28b3606cbade1baae080625b",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/directions-3645c5fd2fd03a58601ab5563ef4543628f8550ad4f0413d75007eefcaa0f4ae.js",
+    "reference_sha256": "2e284be9f1a12dd6e3aa8ee05e65674fe741802b6575d00600ed3eda14f2a577",
+    "packaged_sha256": "0f67693f83cef1a4f41e12146a93c84e40f4a612b976ccd5355bcd1929b9ad33",
+    "identical_to_official": false,
+    "modified_for_integration": true
+  },
+  {
+    "path": "assets/index_modules/element-28893415064f39107fe5447bbfdba9c3f853b9273c27701c3fa37259c314b2b2.js",
+    "reference_sha256": "1d9e753b878c84ceac3a4e301d8ca3e9ccbf2b64db77daa81e58d8f96419670b",
+    "packaged_sha256": "1d9e753b878c84ceac3a4e301d8ca3e9ccbf2b64db77daa81e58d8f96419670b",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/export-e0c8127efcd03076098c4f7f328e11eebc0fc7c9210bf42a6a29769133ba2606.js",
+    "reference_sha256": "cf097285882049f447974dfd107cb8ac0c32d24d2defe1aa8a4b3f7737432356",
+    "packaged_sha256": "cf097285882049f447974dfd107cb8ac0c32d24d2defe1aa8a4b3f7737432356",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/history-4d8848b1e7eb4ea75979a83e064087d6f7602724ab111bb16d14417c0d9e1766.js",
+    "reference_sha256": "781e4813d283c7870baa2146a9bee5a93525396467fbbc73e1f0ac23123ed5c9",
+    "packaged_sha256": "781e4813d283c7870baa2146a9bee5a93525396467fbbc73e1f0ac23123ed5c9",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/home-1bdcb95052a931d58873b425b3c3dc7aae125a53995dd012a8261bbf2d88c7fa.js",
+    "reference_sha256": "1903349744f5f61ef9ff0b61ef43ef5357a360eabf59122a5103e45da2e64bb1",
+    "packaged_sha256": "1903349744f5f61ef9ff0b61ef43ef5357a360eabf59122a5103e45da2e64bb1",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/index-13dd758b38dce8b055810eca25df13e8512de5021b1c75bce22de1c2e93a7603.js",
+    "reference_sha256": "43f2b5493015811bcd0025d8173145599cf63b297328e68a46656e07b38ac209",
+    "packaged_sha256": "80be6d3afbb94a29a642eb44688d32b85bf58c9b3c55b2977aa2257cd7c88071",
+    "identical_to_official": false,
+    "modified_for_integration": true
+  },
+  {
+    "path": "assets/index_modules/new_note-2089f4b1fdba87b63b4e03788084b2384953cca78c37da3b79c0d007afd27c55.js",
+    "reference_sha256": "d564300e1d35179c860305bfad651b61bd0bd244e1a42376a59e0b5dd6ad1e3e",
+    "packaged_sha256": "d564300e1d35179c860305bfad651b61bd0bd244e1a42376a59e0b5dd6ad1e3e",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/note-1db64a2982cef47ff18ecb24ee236642c6453afbb752e2df55b565eab41d4ecd.js",
+    "reference_sha256": "a389eca59995366a4bfce9e4a54abcbda10a59d64dcd70c18b46a18d318d3a64",
+    "packaged_sha256": "a389eca59995366a4bfce9e4a54abcbda10a59d64dcd70c18b46a18d318d3a64",
+    "identical_to_official": true,
+    "modified_for_integration": false
+  },
+  {
+    "path": "assets/index_modules/query-ca654fada0cfbfccafeee253221a1b96a84581cbcb3178a0cbf4da85725d67e7.js",
+    "reference_sha256": "1474844f81f9c7f9ca6ec6f0dee575fb2645b5c878e614eb2bccb5c3afec83a9",
+    "packaged_sha256": "0c7fc9a867348ca7a177ac8d89715266c1092a5b7c878297b64c60d3e98125c3",
+    "identical_to_official": false,
+    "modified_for_integration": true
+  },
+  {
+    "path": "assets/index_modules/search-fe1017cbfa3a2a8733ef0628aaedcad53bbf55db4099248df4f665445a6094bc.js",
+    "reference_sha256": "7847ab626e8c4d12b3acd0ea5f140555afc68f7fbc3549e343d5de0f0fcf54d1",
+    "packaged_sha256": "571beaf54653c4be8d5a714d464d49cae4842ecc490f2f07565264f77595ba4d",
+    "identical_to_official": false,
+    "modified_for_integration": true
+  }
+]

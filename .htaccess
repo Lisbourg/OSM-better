@@ -1,0 +1,46 @@
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .html .js .css .json .svg
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:js|mjs)$">
+    Header set X-Content-Type-Options "nosniff"
+  </FilesMatch>
+  # Browser-initiated map and service connections must remain same-origin.
+  # Remote imagery/style/glyph/worker dependencies must pass via PHP proxy.
+  Header always set Content-Security-Policy "default-src 'self' data: blob:; connect-src 'self'; img-src 'self' data: blob:; font-src 'self' data: blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline' blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob:; worker-src 'self' blob:; frame-src 'self' blob:; object-src 'none'; base-uri 'self'"
+</IfModule>
+DirectoryIndex index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # The rules are relative to this .htaccess, wherever index.html is deployed.
+  RewriteRule ^__proxy/?$ proxy.php [QSA,L]
+
+  # The map page itself must be served through the PHP router so ?locale= and
+  # the _osm_locale cookie rewrite <html lang>, data-locale and the i18n
+  # bundle per visitor (the official site renders those server-side). Without
+  # this rule Apache serves index.html directly and a language switch changes
+  # only the cookie, never the page.
+  RewriteRule ^$ router.php?__osm_route=/ [QSA,L]
+  RewriteRule ^index\.html$ router.php?__osm_route=/index.html [QSA,L]
+
+  # Keep captured files, directories and the PHP base-path bootstrap local.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Pass only the path relative to this app folder to the PHP router.
+  RewriteRule ^(.*)$ router.php?__osm_route=/$1 [QSA,L]
+</IfModule>
+
+# The browser bootstrap may execute, but the JSON config and PHP helper are private.
+<FilesMatch "^(proxy-config\.php|app-base\.json|app-base-lib\.php)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>

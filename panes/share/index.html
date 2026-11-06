@@ -1,0 +1,35 @@
+<div class="p-3 share-panel-content">
+  <div class="btn-group w-100 mb-3 share-tab" role="tablist">
+    <a id="long_link" class="btn btn-outline-primary active" href="#" role="tab" data-bs-toggle="tab" data-bs-target="#nav-link">Link</a>
+    <a id="short_link" class="btn btn-outline-primary" href="#" role="tab" data-bs-toggle="tab" data-bs-target="#nav-link">Short link</a>
+    <a id="embed_link" class="btn btn-outline-primary" href="#" role="tab" data-bs-toggle="tab" data-bs-target="#nav-embed">HTML</a>
+  </div>
+  <div class="tab-content">
+    <div id="nav-link" class="tab-pane active show">
+      <label for="long_input" class="form-label">Share this map</label>
+      <input id="long_input" class="form-control mb-2" type="text" readonly>
+      <label for="short_input" class="form-label">Short link</label>
+      <input id="short_input" class="form-control mb-2" type="text" readonly>
+      <div class="form-check"><input id="link_marker" type="checkbox" class="form-check-input"><label for="link_marker" class="form-check-label">Include marker</label></div>
+      <a id="geo_uri" href="#">Open in geo app</a>
+    </div>
+    <div id="nav-embed" class="tab-pane">
+      <label for="embed_html" class="form-label">Embed</label>
+      <textarea id="embed_html" class="form-control" rows="4" readonly></textarea>
+    </div>
+  </div>
+  <hr>
+  <div class="form-check mb-2"><input id="image_filter" type="checkbox" class="form-check-input"><label for="image_filter">Select an area</label></div>
+  <div id="export-warning" class="text-body-secondary small">Export availability depends on the selected map layer.</div>
+  <div id="mapnik_scale_row"><label for="mapnik_scale">Scale</label><input id="mapnik_scale" type="number" class="form-control" min="1" value="25000"></div>
+  <div class="small">Size: <span id="mapnik_image_width"></span> x <span id="mapnik_image_height"></span></div>
+  <span id="mapnik_image_layer" hidden></span>
+  <form id="export-image" action="./export/finish" method="post" data-turbo="false" hidden>
+    <input id="csrf_export" name="authenticity_token" type="hidden" value="">
+    <input id="mapnik_minlon" type="hidden" name="minlon"><input id="mapnik_minlat" type="hidden" name="minlat">
+    <input id="mapnik_maxlon" type="hidden" name="maxlon"><input id="mapnik_maxlat" type="hidden" name="maxlat">
+    <input id="map_format" type="hidden" name="format"><input id="map_zoom" type="hidden" name="zoom">
+    <input id="mapnik_lon" type="hidden" name="lon"><input id="mapnik_lat" type="hidden" name="lat">
+    <input id="map_width" type="hidden" name="width"><input id="map_height" type="hidden" name="height">
+  </form>
+</div>

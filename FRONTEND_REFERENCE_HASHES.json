@@ -1,0 +1,15 @@
+{
+ "reference": "OpenStreetMap.zip supplied by user and audited integrated HTML without cached login state",
+ "html_without_cache_query_sha256": "7b5f8bc815c30a1ca050677492e8bed483f93f4d9eeef8d7add10dc1aaf5c609",
+ "css_original_sha256": {
+  "print-ltr-97dee1ca487394c852f28c2906a930316ab6d2cacf7f73e47c1c31fad8919051.css": "fcfd5f2aa57e7a60be0924e7763a73b314e05f3c731f405ac593b07913df60f9",
+  "leaflet-all-d3e8505f47e0f0615d3daf2619f2267c086cbe9e17e276f393ee686dca54e0d3.css": "1425704e8d49d9edb6995c93a1d83d827a7a20a10a9cb7d2d1375a4fa34169b6",
+  "maplibre-gl-all-20d18df1d89490f1022cce8a156e2ff3958396ddad7f015c94b31f4da45543e6.css": "b7aca938d94a3add91ac3f20396df5ec7b0e694daab3c49bd9ad5c5f24fa9a5a",
+  "screen-auto-ltr-d1fba5979d2f387276d738920086742b0f4116326208bcd5cb034f984def84cb.css": "0abb6858013f1d7cbc9ea821162e79e775fafa1781104780a73a686ae017f794"
+ },
+ "limitations": [
+  "An HTML hash compares the sanitized integrated reference, not the logged-in original HTML snapshot.",
+  "CSS comparison permits only documented asset-path and escape normalization.",
+  "html_without_cache_query_sha256 was regenerated after the language-options and official-pane-parity iteration (better-osm-panel-guard removal, /directions fragment serving the route block). Structural parity against the official capture is enforced by TEST_OFFICIAL_FRONTEND_DOM.py, which still compares ids and markup signatures against OFFICIAL_FRONTEND_DOM_BASELINE.json."
+ ]
+}

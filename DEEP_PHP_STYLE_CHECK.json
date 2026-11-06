@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "empty_filter_removed": true,
+    "invalid_anchor_omitted": true,
+    "invalid_empty_font_omitted": true,
+    "nested_empty_literal": true,
+    "source_via_proxy": true,
+    "sprite_template_preserved": true,
+    "glyph_template_preserved": true
+  },
+  "allPassed": true
+}

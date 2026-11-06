@@ -1,0 +1,57 @@
+{
+  "name": "OpenStreetMap",
+  "short_name": "OSM",
+  "icons": [
+    {
+      "src": "android-chrome-36x36-97b7ec658a6a16993d663385febd2e8cc27377f99e737fdc7e4da4f0d317849c.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": 0.75
+    },
+    {
+      "src": "android-chrome-48x48-e72d68ea951b75a20b568ffbfb3bbdd3364a07877b53b5e3b9420d4fd7c9307c.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": 1.0
+    },
+    {
+      "src": "android-chrome-72x72-862e20b34c165fbdbae88ce9d3e9aa073fbd6b00abaab31d4044a2149521a430.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": 1.5
+    },
+    {
+      "src": "android-chrome-96x96-2472a2be0d381557518ded68f5dda0be9c5572eeccda47df1e46a48a5c28436f.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": 2.0
+    },
+    {
+      "src": "android-chrome-144x144-1ca102662af5366ff980871b959678d7ff7377cd9093cb0431dabb6c6010b723.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": 3.0
+    },
+    {
+      "src": "android-chrome-192x192-f970b9be3965dfda6ea9481b305c39b2ec794e296f802235e30d4671f0f896e1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": 4.0
+    },
+    {
+      "src": "osm_logo-cc7d94392992162133be3baa21a37eb84f19f9b91178f704005378fbeecabb4e.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": "../",
+  "theme_color": "#7ebc6f",
+  "background_color": "#fff",
+  "display": "minimal-ui",
+  "protocol_handlers": [
+    {
+      "protocol": "geo",
+      "url": "../?geouri=%s"
+    }
+  ]
+}

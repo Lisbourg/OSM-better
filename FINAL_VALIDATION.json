@@ -1,0 +1,123 @@
+{
+  "all_local_checks_passed": true,
+  "checks": {
+    "all_js_php_route_refs": true,
+    "three_configured_deployment_paths": true,
+    "native_route_race_drag_and_two_close_buttons": true,
+    "native_query_and_maplibre_language": true,
+    "real_xhr_abort_bridge": true,
+    "xhr_open_reuses_and_cancels": true,
+    "legacy_gm_callback_errors": true,
+    "runtime_language_wrapper": true,
+    "mutually_exclusive_better_osm_layers": true,
+    "php_map_style_rewrite": true,
+    "php_style_preserves_json_objects": true,
+    "proxy_redirect_rejects_unsafe_targets": true,
+    "official_native_route_svg_color_and_markers": true,
+    "native_official_frontend_dom_structure": true,
+    "better_osm_canvas_and_map_hash_fallbacks": true,
+    "better_osm_export_bounds_missing_dom": true,
+    "deployment_metadata_paths_local": true,
+    "inline_js_parse": true,
+    "html_identical_except_asset_versions": true,
+    "css_identical_or_equivalent_to_official": true,
+    "official_downloads_sha256_consistent": true,
+    "no_account_capture": true,
+    "better_osm_script_loaded_once": true,
+    "all_doc_referenced_test_scripts_exist": true,
+    "configured_base_path_no_hardcoded_osm": true
+  },
+  "details": {
+    "all_js_php_route_refs": {
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"ok\": true,\n  \"js_files\": 48,\n  \"php_files\": 7,\n  \"native_modules\": 11,\n  \"failed\": []\n}\n",
+      "stderr_tail": ""
+    },
+    "three_configured_deployment_paths": {
+      "exit_code": 0,
+      "stdout_tail": "[\n  {\n    \"configured_index_path\": \"/index.html\",\n    \"deep_route\": 200,\n    \"js_bootstrap\": 200,\n    \"official_route_modules\": 200,\n    \"official_routes_tested\": 8,\n    \"turbo_frames_tested\": 3,\n    \"health\": 200\n  },\n  {\n    \"configured_index_path\": \"/atlas/index.html\",\n    \"deep_route\": 200,\n    \"js_bootstrap\": 200,\n    \"official_route_modules\": 200,\n    \"official_routes_tested\": 8,\n    \"turbo_frames_tested\": 3,\n    \"health\": 200\n  },\n  {\n    \"configured_index_path\": \"/any/deep/path/index.html\",\n    \"deep_route\": 200,\n    \"js_bootstrap\": 200,\n    \"official_route_modules\": 200,\n    \"official_routes_tested\": 8,\n    \"turbo_frames_tested\": 3,\n    \"health\": 200\n  }\n]\n",
+      "stderr_tail": ""
+    },
+    "native_route_race_drag_and_two_close_buttons": {
+      "exit_code": 0,
+      "stdout_tail": "outing.openstreetmap.de/routed-car/route/v1/driving/106.56116,29.60258;106.561852,29.602589?overview=false&geometries=polyline&steps=true&hints=a%3Bb'], 'errHidden': True, 'errorText': '', 'routeCount': 1} ERRORS []\nROUTE ASYNC RACE {'newer_wins': True, 'older_ignored': True, 'newer_not_aborted': True}\nAFTER DRAG {'steps': 1, 'polylines': 1, 'formVisible': True, 'camera': {'fitBounds': 2, 'panTo': 0, 'setView': 2}}\nAFTER UPPER X (native exit to home) {'searchVisible': True, 'formHidden': True, 'polylines': 0, 'steps': 0, 'camera': {'fitBounds': 2, 'panTo': 0, 'setView': 2}}\nAFTER LOWER X (native, already unloaded) {'searchVisible': True, 'camera': {'fitBounds': 2, 'panTo': 0, 'setView': 2}}\n",
+      "stderr_tail": ""
+    },
+    "native_query_and_maplibre_language": {
+      "exit_code": 0,
+      "stdout_tail": "{\"native_maplibre_guard\":true,\"invalid_query_rejected\":true,\"valid_zero_coords\":true,\"query_abort_on_unload\":true}\n",
+      "stderr_tail": ""
+    },
+    "real_xhr_abort_bridge": {
+      "exit_code": 0,
+      "stdout_tail": "{\"abort_propagates\":true,\"no_stale_load_after_abort\":true,\"reopen_completes\":true}\n",
+      "stderr_tail": ""
+    },
+    "xhr_open_reuses_and_cancels": {
+      "exit_code": 0,
+      "stdout_tail": "{\"abort_propagates\":true,\"no_stale_load_after_abort\":true,\"reopen_completes\":true}\n",
+      "stderr_tail": ""
+    },
+    "legacy_gm_callback_errors": {
+      "exit_code": 0,
+      "stdout_tail": "{\"callback_error\":true,\"no_unhandled_promise\":true,\"abort_callback\":true}\n",
+      "stderr_tail": ""
+    },
+    "runtime_language_wrapper": {
+      "exit_code": 0,
+      "stdout_tail": "{\"skip_non_maptiler\":true,\"retain_maptiler\":true,\"no_double_install\":true}\n",
+      "stderr_tail": ""
+    },
+    "mutually_exclusive_better_osm_layers": {
+      "exit_code": 0,
+      "stdout_tail": "{\"ok\":true,\"activeBaseLayers\":1,\"mutuallyExclusive\":true,\"proxyURL\":true}\n",
+      "stderr_tail": ""
+    },
+    "php_map_style_rewrite": {
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"checks\": {\n    \"empty_filter_removed\": true,\n    \"invalid_anchor_omitted\": true,\n    \"invalid_empty_font_omitted\": true,\n    \"nested_empty_literal\": true,\n    \"source_via_proxy\": true,\n    \"sprite_template_preserved\": true,\n    \"glyph_template_preserved\": true\n  },\n  \"allPassed\": true\n}\n",
+      "stderr_tail": ""
+    },
+    "php_style_preserves_json_objects": {
+      "exit_code": 0,
+      "stdout_tail": "{\"style_metadata_is_object\":true,\"source_metadata_is_object\":true,\"layer_layout_is_object\":true,\"layer_paint_is_object\":true,\"tile_urls_remain_list\":true}\n",
+      "stderr_tail": ""
+    },
+    "proxy_redirect_rejects_unsafe_targets": {
+      "exit_code": 0,
+      "stdout_tail": "{\"allowlist_removed\": true, \"mirror_cases\": 16, \"policy\": \"any HTTP(S) host, any port, no credentials\"}\nOK: proxy has no host allowlist; custom layers cannot 403 on a missing entry\nOK: validator accepts any HTTP(S) host/port and rejects non-HTTP(S) schemes and credentials\nOK: per-hop Referer (default https://www.openstreetmap.org/) and Referrer-Policy header intact\n",
+      "stderr_tail": ""
+    },
+    "official_native_route_svg_color_and_markers": {
+      "exit_code": 0,
+      "stdout_tail": "#03f\",\n      \"strokeOpacity\": \"0.3\",\n      \"strokeWidth\": \"10\"\n    },\n    \"markers\": [\n      {\n        \"draggable\": true,\n        \"html\": \"<svg viewBox=\\\"0 0 25 40\\\" class=\\\"pe-none\\\" overflow=\\\"visible\\\"><use href=\\\"#pin-shadow\\\" /><use href=\\\"#pin-start\\\" color=\\\"var(--marker-green)\\\" class=\\\"pe-auto\\\" /></svg>\"\n      },\n      {\n        \"draggable\": true,\n        \"html\": \"<svg viewBox=\\\"0 0 25 40\\\" class=\\\"pe-none\\\" overflow=\\\"visible\\\"><use href=\\\"#pin-shadow\\\" /><use href=\\\"#pin-destination\\\" color=\\\"var(--marker-red)\\\" class=\\\"pe-auto\\\" /></svg>\"\n      }\n    ],\n    \"fromTo\": [\n      \"Example Road\",\n      \"Example Road\"\n    ],\n    \"stepRows\": 1\n  },\n  \"known_fixture_startup_errors\": 1\n}\n",
+      "stderr_tail": ""
+    },
+    "native_official_frontend_dom_structure": {
+      "exit_code": 0,
+      "stdout_tail": "\"local_instances\": 1\n    },\n    \"fragment:#directions_route_time\": {\n      \"matched\": true,\n      \"official_instances\": 1,\n      \"local_instances\": 1\n    },\n    \"fragment:#directions_route_download\": {\n      \"matched\": true,\n      \"official_instances\": 1,\n      \"local_instances\": 1\n    },\n    \"fragment:#directions_route_steps\": {\n      \"matched\": true,\n      \"official_instances\": 1,\n      \"local_instances\": 1\n    }\n  },\n  \"static_ids_preserved\": 47,\n  \"runtime_created_ids_excluded\": 56,\n  \"dynamically_created_ids_excluded\": 19,\n  \"scope\": \"static routing controls and pin SVG; runtime context menu, custom editors and directions fragment intentionally excluded; no live pixel equality claim\"\n}\n",
+      "stderr_tail": ""
+    },
+    "better_osm_canvas_and_map_hash_fallbacks": {
+      "exit_code": 0,
+      "stdout_tail": "{\"ok\":true,\"canvasPaths\":2,\"svgClassPreserved\":true,\"missingEditMenu\":true,\"zoomFallback\":true,\"panFallback\":true,\"boundsFallback\":true}\n",
+      "stderr_tail": ""
+    },
+    "better_osm_export_bounds_missing_dom": {
+      "exit_code": 0,
+      "stdout_tail": "{\"ok\":true,\"mapPresent\":true,\"missingSidebar\":true,\"missingExportLink\":true,\"missingFields\":true,\"validExportBounds\":true,\"invalidFields\":true,\"sidebarRestored\":true}\n",
+      "stderr_tail": ""
+    },
+    "deployment_metadata_paths_local": {
+      "exit_code": 0,
+      "stdout_tail": "{\n  \"msapplication-config\": \"./assets/browserconfig-c59184dc0264731151cbf50ae58f7fa8ae5153138013f125203e1193800f862f.xml\",\n  \"msapplication-TileImage\": \"./assets/mstile-144x144-02723f6f7cb2c18e6f8041c93f80982decb52b24a7e447477bc2ce3136d75806.png\"\n}\n",
+      "stderr_tail": ""
+    }
+  },
+  "failures": [],
+  "limits": [
+    "External map/search/feature/geocode providers not exercised against production.",
+    "MapLibre WebGL rendering with real provider styles not certified.",
+    "Chromium native-route test uses a fixture, not the production network."
+  ]
+}

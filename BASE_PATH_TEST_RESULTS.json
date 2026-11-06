@@ -1,0 +1,29 @@
+[
+  {
+    "configured_index_path": "/index.html",
+    "deep_route": 200,
+    "js_bootstrap": 200,
+    "official_route_modules": 200,
+    "official_routes_tested": 8,
+    "turbo_frames_tested": 3,
+    "health": 200
+  },
+  {
+    "configured_index_path": "/atlas/index.html",
+    "deep_route": 200,
+    "js_bootstrap": 200,
+    "official_route_modules": 200,
+    "official_routes_tested": 8,
+    "turbo_frames_tested": 3,
+    "health": 200
+  },
+  {
+    "configured_index_path": "/any/deep/path/index.html",
+    "deep_route": 200,
+    "js_bootstrap": 200,
+    "official_route_modules": 200,
+    "official_routes_tested": 8,
+    "turbo_frames_tested": 3,
+    "health": 200
+  }
+]

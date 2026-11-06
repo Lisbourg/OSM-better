@@ -1,0 +1,42 @@
+{
+  "version": "1.7.9",
+  "requirements": [
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/GM_config/fixed-for-chromium/gm_config.js",
+      "sha256": "ea04cb4254619543f8bca102756beee3e45e861077a75a5e74d72a5c131c580b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/exif-js/aad22d0e24726efd1440a008ad08ab704731fcfd/exif.js",
+      "sha256": "79c449a11e9e485318ca8eff108e1cbcc0ec8b8aa3f0a40294021a2898319147"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/osmtogeojson/c97381a0c86c0a021641dd47d7bea01fb5514716/osmtogeojson.js",
+      "sha256": "663bb5bbae47d5d12bff9cf1c87b8f973e85fab4b1f83453810aae99add54592"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/better-osm-org/5a949d7b1b0897472396758dd5c1aaa514bba6c6/misc/assets/snow-animation.js",
+      "sha256": "3b6cd76818c5575ea49aceb7bf4dc528eb8a7cb228b701329a41bb50f0800a5d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/opening_hours.js/03d9af5c0b3c8dcec6b6ecadc3ef419bee4b52c1/opening_hours+deps.min.js",
+      "sha256": "b0a9be43fe081d13db2aff69b36417ef18a9e0707629741e627a9b30f948cab9"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/unzipit/refs/heads/master/dist/unzipit.min.js",
+      "sha256": "13a41f257bc1fd90adeaf6731e02838cf740299235ece90634f12e117e22e2ff"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/bz2/342be4403bf5ba835bb2c9ba54ad008bba428d60/index.js",
+      "sha256": "8c19861a31e7fb403824e513e1afd23f75c5024f610671490ebc86f2eca61845"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deevroman/better-osm-org/9a020e54eef1aefef15f4fa97c31296b57cad1b1/misc/assets/libphonenumber-min.js",
+      "sha256": "4fa4cc15faf634acd0f4f858842f6866405dd65e4be41f1aa286967e85b8956e"
+    }
+  ],
+  "resources": {
+    "OAUTH_HTML": "https://raw.githubusercontent.com/deevroman/better-osm-org/master/misc/assets/finish-oauth.html?bypass_cache",
+    "DARK_THEME_FOR_ID_CSS": "https://gist.githubusercontent.com/deevroman/55f35da68ab1efb57b7ba4636bdf013d/raw/1e91d589ca8cb51c693a119424a45d9f773c265e/dark.css",
+    "REGIONAL_TAGINFOS": "https://raw.githubusercontent.com/deevroman/better-osm-org/refs/heads/dev/misc/assets/regional-taginfo-list.html"
+  }
+}

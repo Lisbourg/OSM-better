@@ -1,0 +1,108 @@
+<turbo-frame id="sidebar_content_frame" target="_top" data-turbo="false">
+        
+<svg class="d-none" aria-hidden="true">
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-destination"><path d="M10 5a1 1 0 1 0 0-2 1 1 0 1 0 0 2m0 12V9m2.5 2L10 8.5 7.5 11z"></path></symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-end-of-road-right"><path d="M2 9h10" opacity=".5"></path><path d="M9 17v-5q0-3 3-3h4m-2 2.5L16.5 9 14 6.5z"></path></symbol>
+              <symbol id="routing-sprite-end-of-road-left">
+                <use href="#routing-sprite-end-of-road-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-exit-right"><path d="M9 14V6" opacity=".5"></path><path d="M9 17v-3q0-2 2-4l5-5m0 0h-3l3 3z"></path></symbol>
+              <symbol id="routing-sprite-exit-left">
+                <use href="#routing-sprite-exit-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1" id="routing-sprite-ferry"><path fill="currentColor" d="m10.5 8-6 2L7 12v1.5a2.83 2.83 0 0 1 1.5 1 2.83 2.83 0 0 1 4 0 2.83 2.83 0 0 1 1.5-1V12l2.5-2z"></path><path d="M6.5 9.5v-5h8v5M9 3.5h3M5.5 16.5a1.414 2.828 0 0 1 2 0 1.414 2.828 0 0 0 2 0 1.414 2.828 0 0 1 2 0 1.414 2.828 0 0 0 2 0 1.414 2.828 0 0 1 2 0"></path></symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-fork-right"><path d="M9 14q0-2-2-4L4 7" opacity=".5"></path><path d="M9 17v-3q0-2 2-4l5-5m0 0h-3l3 3z"></path></symbol>
+              <symbol id="routing-sprite-fork-left">
+                <use href="#routing-sprite-fork-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-merge-right"><path d="M12 7q0 2 2 4l3 3" opacity=".5"></path><path d="M12 4v3q0 2-2 4l-5 5m5-5H7l3 3z"></path></symbol>
+              <symbol id="routing-sprite-merge-left">
+                <use href="#routing-sprite-merge-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-right"><path d="M7 17v-5q0-3 3-3h4m-2 2.5L14.5 9 12 6.5z"></path></symbol>
+              <symbol id="routing-sprite-left">
+                <use href="#routing-sprite-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-roundabout"><path d="M8 17v-3a3 3 0 1 0 0-6 3 3 0 1 0 0 6m2-4 5-5m0 0h-3l3 3z"></path></symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-sharp-right"><path d="M7 17v-7q0-6 6 0l2 2m0 0V9l-3 3z"></path></symbol>
+              <symbol id="routing-sprite-sharp-left">
+                <use href="#routing-sprite-sharp-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-slight-right"><path d="M7 17v-3q0-2 2-4l5-5m0 0h-3l3 3z"></path></symbol>
+              <symbol id="routing-sprite-slight-left">
+                <use href="#routing-sprite-slight-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-start"><path d="M10 16a1 1 0 1 0 0-2 1 1 0 1 0 0 2m0-4V4m2.5 2L10 3.5 7.5 6z"></path></symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-straight"><path d="M10 17V4m2.5 2L10 3.5 7.5 6z"></path></symbol>
+            <symbol xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" id="routing-sprite-u-turn-right"><path d="M4 17v-7a4.5 4.5 0 0 1 9 0v5m2.5-2L13 15.5 10.5 13z"></path></symbol>
+              <symbol id="routing-sprite-u-turn-left">
+                <use href="#routing-sprite-u-turn-right" transform="matrix(-1 0 0 1 20 0)" />
+              </symbol>
+</svg>
+
+
+<h2 class="me-4 text-break">Directions</h2>
+
+
+<div id="directions_loader" hidden>
+  <div class="text-center loader">
+<div class="spinner-border" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+</div>
+</div>
+
+<div id="directions_error" hidden></div>
+
+<div id="directions_route" hidden>
+  <div id="directions_distance_units_settings" class="collapse">
+    <div class="btn-group btn-group-sm w-100">
+      <input type="radio" class="btn-check" name="directions_distance_units" value="km_m" id="directions_distance_units_km_m" autocomplete="off" checked>
+      <label class="btn btn-outline-secondary p-0 px-1" for="directions_distance_units_km_m">kilometers</label>
+
+      <input type="radio" class="btn-check" name="directions_distance_units" value="mi_ft" id="directions_distance_units_mi_ft" autocomplete="off">
+      <label class="btn btn-outline-secondary p-0 px-1" for="directions_distance_units_mi_ft">miles, feet</label>
+
+      <input type="radio" class="btn-check" name="directions_distance_units" value="mi_yd" id="directions_distance_units_mi_yd" autocomplete="off">
+      <label class="btn btn-outline-secondary p-0 px-1" for="directions_distance_units_mi_yd">miles, yards</label>
+    </div>
+  </div>
+
+  <div class="mx-n3">
+    <table class="table table-hover table-sm mb-3">
+      <thead>
+        <td colspan="2" class="ps-3">
+          <span>
+            Distance: <output id="directions_route_distance"></output>.
+            Time: <output id="directions_route_time"></output>.
+          </span>
+          <br>
+          <span id="directions_route_ascend_descend">
+            Ascend: <output id="directions_route_ascend"></output>.
+            Descend: <output id="directions_route_descend"></output>.
+          </span>
+        </td>
+        <td class="pe-3 text-end">
+          <button type="button" class="btn btn-outline-secondary px-1 py-0 border-0 me-n1" data-bs-toggle="collapse" data-bs-target="#directions_distance_units_settings">
+            <i class="bi bi-gear d-block" aria-hidden="true"></i>
+            <span class="visually-hidden">Distance Units Settings</span>
+          </button>
+        </td>
+      </thead>
+      <tbody id="directions_route_steps"></tbody>
+    </table>
+  </div>
+
+  <p class="text-center">
+    <a id="directions_route_download" href="data:application/geo+json,{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[]}" download="route.geojson">Download route as GeoJSON</a>
+  </p>
+
+  <p class="text-center">
+    Directions courtesy of <a id="directions_route_credit" target="_blank"></a>
+  </p>
+ <p class="text-center">
+  More details from <a id="directions_route_demo" target="_blank"></a>
+</p>
+</div>
+
+      </turbo-frame>

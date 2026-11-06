@@ -1,0 +1,36 @@
+<turbo-frame id="sidebar_content_frame" target="_top" data-turbo="false">
+        
+
+<h2 class="me-4 text-break">New Note</h2>
+
+<div class="note">
+  <p class="alert alert-info">Spotted a mistake or something missing? Let other mappers know so we can fix it. Move the marker to the correct position and type a note to explain the problem.</p>
+    <div class="alert alert-warning pb-0">
+      <p>You are not logged in. Please <a href="/login?referer=%2Fnote%2Fnew">log in</a> or <a href="/user/new">sign up</a> to receive updates for your note and help mappers resolve it.</p>
+    </div>
+  <p class="alert alert-warning" id="new-note-zoom-warning" hidden>Zoom in to add a note to the map</p>
+  <form action="#">
+    <input type="hidden" name="lon" autocomplete="off">
+    <input type="hidden" name="lat" autocomplete="off">
+    <div class="mb-3">
+      <textarea name="text" id="text" class="form-control" maxlength="2000" placeholder="A good note is as descriptive as possible while avoiding personal information, or content from copyrighted maps or directory listings.
+
+Please be kind, patient and respectful when communicating with community members." cols="40" rows="10">
+</textarea>
+    </div>
+    <div class="new-note-error alert alert-danger d-none">
+      <details>
+        <summary>There was an error when creating the note</summary>
+        <p class="new-note-error-detail"></p>
+      </details>
+    </div>
+    <div>
+      <input type="submit" name="add" value="Add Note" disabled="disabled" class="btn btn-primary" data-disable-with="Add Note" />
+    </div>
+  </form>
+  <div class="alert alert-warning mt-3">
+    <p class="mb-0">Anyone in the public can see a note, even without an OpenStreetMap account!</p>
+  </div>
+</div>
+
+      </turbo-frame>
